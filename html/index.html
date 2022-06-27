@@ -15,13 +15,35 @@
                 <td>CSS3</td>
                 <td>Javascript/ES6</td>
             </tr>
-        </table>
+        </table><br><br>
         <form action="" method="">
             <label for="name">First name</label>
             <input type="text" name="name" id="name"><br><br>
             <label for="password">Password</label> <!-- ID OF LABEL AND INPUT SHOULD MATCH -->
             <input type="password" name="password" id="password" placeholder="password"><br><br>
-            <input type="email" name="" id="" value="hardcoded data">
+            <input type="email" name="" id="" value="hardcoded data"><br><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <p>Select your favourite coding language:</p>
+            <!-- NAME FOR RADIO BUTTONS SHOULD MATCH, SINCE USER SHOULD ONLY BE ABLE TO SELECT ONE VALUE -->
+            <input type="radio" name="coding" id="" value="Javascript">Javascript
+            <input type="radio" name="coding" id="" value="Python">Python
+            <input type="radio" name="coding" id="" value="C++">C++
+            <input type="radio" name="coding" id="" value="C#">C#
+            <br><br>
+            <p>Select your favourite youtube channel</p>
+            <input type="checkbox" name="youtube" id="" value="Mosh">Programming with Mosh
+            <input type="checkbox" name="youtube" id="" value="FCC">FreeCodeCamp
+            <!-- VALUE ATTRIBUTE IS USED WHEN DATA IS BEING SUBMITTED -->
+            <p>Select your favourite food</p>
+            <select name="food" id="">
+                <option value="pizza">Pizza</option>
+                <option value="tea">tea</option>
+                <option value="momos">momos</option>
+                <option value="burger">Burger</option>
+
+            </select>
+            <br><br>
+
             <button type="submit">Submit</button>
         </form>
     </body>
