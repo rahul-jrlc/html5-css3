@@ -1,18 +1,16 @@
 /* RELATIVE UNITS */
-/* rem- RELATIVE, DEPENDS ON ROOT */
-/* 1 REM = 16PX DEFAULT BROWSER STYLE */
+/* vh - HEIGHT- PERCENT OF THE SCREEN */
+/* vw - WIDTH - PERCENT OF THE SCREEN */
+/* RELATIVE TO THE SCREEN */
 
-html {
-    font-size: 32px;
-}
-div {
-    font-size: 10px;
-}
-
-.relative {  /* RELATIVE TO ROOT, NOT PARENT. ROOT ELEMENT IS HTML, WHOSE DEFAULT SIZE IS 16PX */
-    font-size: 2rem;
+.banner {
+    width: 50vw;
+    height: 50vh;
+    background: red;
 }
 
-.absolute {
-    font-size: 32px;
+.header {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
 }
