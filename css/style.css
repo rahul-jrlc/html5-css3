@@ -3,10 +3,14 @@
 /* 1 EM = 16PX DEFAULT BROWSER STYLE i.e FOR MOST BROWSERS, THE DEFAULT FONT SIZE IS 16PX (FOR BODY)*/
 /* 1 EM = BASE VALUE */
 
-.relative {
+div {
+    font-size: 10px;
+}
+
+.relative { /* THIS WILL NOW BE 20PX, 2EM I.E 2 TIMES PARENT CONTAINER, DIV IN THIS CASE*/
     font-size: 2em;
 }
-/* PARENT CONTAINER HERE IS BODY ELEMENT, FOR WHICH DEFAULT FONT SIZE IS 16 PX */
+
 .absolute {
     font-size: 32px;
 }
