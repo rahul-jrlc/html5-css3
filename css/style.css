@@ -1,19 +1,11 @@
-/* COLOR PROPERTIES */
-/* COLOR BACKGROUND-COLOR */
+/* FONT-SIZE, WIDTH, HEIGHT */
+/* UNITS- PIXELS */
+/* PIXEL IS AN ABSOLUTE UNIT OF MEASUREMENT */
 
-#first {
-    color: palegoldenrod;
-    background-color: blueviolet;
+h1 {
+    font-size: 60px;
+    width: 200px;
+    height: 300px;
+    background: steelblue;
 }
 
-#second {
-    color: darkgreen;
-    background: yellow;
-}
-/* THERE ARE 140 COLOR NAMES */
-/* RGB - RED, GREEN, BLUE */
-/* RGBA- RED, GREEN, BLUE, ALPHA */
-
-body {
-    background: rgb(236, 138, 57);
-}
