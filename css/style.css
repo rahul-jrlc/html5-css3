@@ -1,13 +1,9 @@
-/* ID SELECTORS */
+/* CLASS SELECTOR */
 
-#heading {
-    color: darkgoldenrod;
-    background: pink;
+.blue-background {
+    background: blue;
 }
 
-/* ID NAMES SHOULD BE UNIQUE */
-
-#footer-heading {
-    color: red;
-    background: black;
+.pink-background {
+    background: pink;
 }
