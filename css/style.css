@@ -1,8 +1,13 @@
+/* ELEMENT/TYPE SELECTOR */
+
 h1 {
-    color: steelblue;
+    color: red;
 }
 
 h2 {
+    color: steelblue;
+}
+
+p {
     color: orange;
-    background: pink;
 }
