@@ -1,9 +1,19 @@
-/* LAST RULE, SPECIFICITY, UNIVERSAL SELECTOR */
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR */
 
-* { /* LEAST SPECIFICITY */
-    color: blue;
+#first {
+    color: palegoldenrod;
+    background-color: blueviolet;
 }
 
-p {
-    color: orange;
+#second {
+    color: darkgreen;
+    background: yellow;
+}
+/* THERE ARE 140 COLOR NAMES */
+/* RGB - RED, GREEN, BLUE */
+/* RGBA- RED, GREEN, BLUE, ALPHA */
+
+body {
+    background: rgb(236, 138, 57);
 }
