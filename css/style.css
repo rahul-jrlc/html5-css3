@@ -1,13 +1,5 @@
-/* ELEMENT/TYPE SELECTOR */
+/* GROUPING SELECTORS */
 
-h1 {
-    color: red;
-}
-
-h2 {
-    color: steelblue;
-}
-
-p {
-    color: orange;
+h1, h2 {
+    color: pink;
 }
