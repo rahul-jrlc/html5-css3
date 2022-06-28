@@ -1,15 +1,12 @@
 /* RELATIVE UNITS */
-/* PERCENT VALUES */
-/* PERCENT VALUES DEPEND ON THE PARENT ELEMENT */
+/* em- RELATIVE, DEPENDS ON PARENT */
+/* 1 EM = 16PX DEFAULT BROWSER STYLE i.e FOR MOST BROWSERS, THE DEFAULT FONT SIZE IS 16PX (FOR BODY)*/
+/* 1 EM = BASE VALUE */
 
-.outer {
-    width: 500px;
-    height: 500px;
-    background: blue;
+.relative {
+    font-size: 2em;
 }
-
-.inner {
-    width: 50%; /* 50 PERCENT OF PARENT ELEMENT, OUTER DIV IN THIS CASE*/
-    height: 50%;
-    background: red;
+/* PARENT CONTAINER HERE IS BODY ELEMENT, FOR WHICH DEFAULT FONT SIZE IS 16 PX */
+.absolute {
+    font-size: 32px;
 }
