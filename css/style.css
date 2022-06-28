@@ -1,5 +1,13 @@
-/* GROUPING SELECTORS */
+/* ID SELECTORS */
 
-h1, h2 {
-    color: pink;
+#heading {
+    color: darkgoldenrod;
+    background: pink;
+}
+
+/* ID NAMES SHOULD BE UNIQUE */
+
+#footer-heading {
+    color: red;
+    background: black;
 }
