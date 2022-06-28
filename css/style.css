@@ -1,10 +1,12 @@
 /* LAST RULE, SPECIFICITY, UNIVERSAL SELECTOR */
 
-p {
-    color: blue;
+.red {
+    color: red;
+    /* MORE SPECIFIC */
 }
 
 p {
-    color: red;
-    /* LAST RULE APPLIED, REGARDLESS OF WHAT WAS APPLIED BEFORE */
+    color: blue;
+    /* LESS SPECIFIC, NO LAST RULE */
 }
+/* SPECIFICTY HIERARCHY-- INLINE STYLE > ID > CLASS > ELEMENTS/TAGS */
