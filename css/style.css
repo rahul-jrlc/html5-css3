@@ -1,14 +1,16 @@
 /* RELATIVE UNITS */
-/* em- RELATIVE, DEPENDS ON PARENT */
-/* 1 EM = 16PX DEFAULT BROWSER STYLE i.e FOR MOST BROWSERS, THE DEFAULT FONT SIZE IS 16PX (FOR BODY)*/
-/* 1 EM = BASE VALUE */
+/* rem- RELATIVE, DEPENDS ON ROOT */
+/* 1 REM = 16PX DEFAULT BROWSER STYLE */
 
+html {
+    font-size: 32px;
+}
 div {
     font-size: 10px;
 }
 
-.relative { /* THIS WILL NOW BE 20PX, 2EM I.E 2 TIMES PARENT CONTAINER, DIV IN THIS CASE*/
-    font-size: 2em;
+.relative {  /* RELATIVE TO ROOT, NOT PARENT. ROOT ELEMENT IS HTML, WHOSE DEFAULT SIZE IS 16PX */
+    font-size: 2rem;
 }
 
 .absolute {
