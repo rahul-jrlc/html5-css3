@@ -1,10 +1,14 @@
-/* DIV AND SPAN */
+/* INHERITANCE */
+/* WHATEVER STYLES ARE ADDED TO THE PARENT ELEMENTS, THE CHILDREN WILL INHERIT THOSE STYLES, UNLESS THE CHILDREN ELEMENTS ARE SPECIFICALLY STYLED. */
 
-.red {
+body {
     color: red;
-    background: black;
 }
 
-span {
-    text-transform: uppercase;
+div {
+    color: blue;
+}
+
+h2 {
+    color: pink;
 }
