@@ -1,9 +1,10 @@
-/* CLASS SELECTOR */
+/* DIV AND SPAN */
 
-.blue-background {
-    background: blue;
+.red {
+    color: red;
+    background: black;
 }
 
-.pink-background {
-    background: pink;
+span {
+    text-transform: uppercase;
 }
