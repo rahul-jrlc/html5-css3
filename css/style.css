@@ -1,11 +1,15 @@
-/* FONT-SIZE, WIDTH, HEIGHT */
-/* UNITS- PIXELS */
-/* PIXEL IS AN ABSOLUTE UNIT OF MEASUREMENT */
+/* RELATIVE UNITS */
+/* PERCENT VALUES */
+/* PERCENT VALUES DEPEND ON THE PARENT ELEMENT */
 
-h1 {
-    font-size: 60px;
-    width: 200px;
-    height: 300px;
-    background: steelblue;
+.outer {
+    width: 500px;
+    height: 500px;
+    background: blue;
 }
 
+.inner {
+    width: 50%; /* 50 PERCENT OF PARENT ELEMENT, OUTER DIV IN THIS CASE*/
+    height: 50%;
+    background: red;
+}
