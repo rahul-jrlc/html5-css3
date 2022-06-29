@@ -1,16 +1,23 @@
 /* CSS BOX MODEL */
-/* PADDING- SPACE BETWEEN CONTENT INSIDE BOX AND EDGE OF BOX */
+/* MARGIN */
+
 
 h1 {
     background: red;
-    padding-top: 30px;
+    padding: 20px;
+    /* padding-top: 30px;
     padding-bottom: 60px;
     padding-left: 25px;
-    padding-right: 50px;
+    padding-right: 50px; */
+    /* margin-bottom: 0px; */
+    margin: 30px;
 }
 
 p {
     background: blue;
+    padding: 20px;
     /* padding: 30px 60px; */ /* TOP-BOTTOM AND LEFT-RIGHT*/
-    padding: 20px 40px 60px 10px;
+    /* padding: 20px 40px 60px 10px; */
+    /* margin-top: 0px; */
+    margin: 50px 20px;
 }
