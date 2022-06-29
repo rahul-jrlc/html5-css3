@@ -1,30 +1,17 @@
-/* CSS BOX MODEL */
-/* OUTLINE - BETWEEN BORDER AND MARGIN
-OFFSET- BORDER MOVED AWAY FROM ELEMENT */
+/* DEFAULT DISPLAY PROPERTY
+BLOCK: ALWAYS STARTS A NEW LINE AND TAKES FULL WIDTH
+INLINE: DOES NOT START ON NEW LINE AND ONLY TAKES UP AS MUCH AS CONTENT SPACE */
 
-.buttons {
-    margin: 3rem;
+.block {
+    background: blue;
+    color: white;
+    /* display: block;  DOESN'T CHANGE ANYTHING, BY DEFAULT BLOCK */
+    display: inline;
 }
 
-a {
+.inline {
     background: red;
-    text-decoration: none;
-    padding: 1.2rem 1.5rem;
-    color: black;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 0 20px;
-}
-
-#one {
-    border: 0.2rem solid black;
-}
-
-#two {
-    outline: 0.2rem solid black;
-    /* outline-width: 0.2rem;
-    outline-style: solid;
-    outline-color: black; */
-    outline-offset: 10px; /* BORDER MOVED AWAY FROM ELEMENT*/
-    outline-offset: -10px;
+    color: white;
+    /* display: inline; DOESN'T CHANGE ANYTHING, BY DEFAULT INLINE */
+    display: block;
 }
