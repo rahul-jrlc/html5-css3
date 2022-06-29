@@ -1,23 +1,27 @@
-/* HORIZONTAL CENTERING */
+/* BLOCK: TOP AND BOTTOM MARGIN RESPECTED */
+/* INLINE: TOP AND BOTTOM MARGIN NOT RESPECTED */
+/* MOBILE NAVBAR EXAMPLE */
+/* LIST-STYLE-TYPE: PROPERTY */
+/* DESCENDANT SELECTORS */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 body {
-    text-align: center; /* CENTERS ENTIRE INLINE ELEMENTS, ONLY CENTERS TEXT OF BLOCK ELEMENTS, SINCE THEY'RE STILL BLOCK ELEMENTS AND WILL TAKE UP THE ENTIRE AVAILABLE WIDTH*/
+    font-family: sans-serif;
 }
 
-.block {
-    background: blue;
-    color: white;
-    /* display: block;  DOESN'T CHANGE ANYTHING, BY DEFAULT BLOCK */
-    /* display: inline; */
-    width: 150px;
-    /* margin: 20px auto; */  /* CENTERS ENTIRE BLOCK ELEMENTS */
-    margin-left: auto;
-    margin-right: auto;
+ul li {
+    list-style-type: none;
 }
 
-.inline {
-    background: red;
-    color: white;
-    /* display: inline; DOESN'T CHANGE ANYTHING, BY DEFAULT INLINE */
-    /* display: block; */
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: black;
+    color: red;
 }
