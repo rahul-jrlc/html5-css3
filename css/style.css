@@ -4,14 +4,14 @@
 /* LIST-STYLE-TYPE: PROPERTY */
 /* DESCENDANT SELECTORS */
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li {
@@ -24,4 +24,10 @@ ul li a {
     letter-spacing: 2px;
     background: black;
     color: red;
+    /* padding: 5px;
+    margin: 10px 10px; ANCHOR TAGS ARE INLINE ELEMENTS, SO TOP AND BOTTOM MARGINS WILL NOT BE RESPECTED BY BROWSER AND PADDINGS TOO */
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    
 }
