@@ -16,5 +16,5 @@ MIX AND MATCH VALUES */
 
 .banner {
     background: red;
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 }
