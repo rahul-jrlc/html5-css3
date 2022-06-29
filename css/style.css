@@ -1,20 +1,10 @@
-/* calc() 
-CALC FUNCTION
-PERFORM BASIC MATH OPERATIONS
-MIX AND MATCH VALUES */
+/* FONT-SIZE
+FONT-FAMILY */
 
-* {
-    margin: 0;
+body {
+    font-family: helvetica;
 }
 
-.navbar {
-    background: blue;
-    height: 100px;
-    color: white;
-    font-size: 3rem;
-}
-
-.banner {
-    background: red;
-    min-height: calc(100vh - 100px);
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
