@@ -1,17 +1,23 @@
-/* DEFAULT DISPLAY PROPERTY
-BLOCK: ALWAYS STARTS A NEW LINE AND TAKES FULL WIDTH
-INLINE: DOES NOT START ON NEW LINE AND ONLY TAKES UP AS MUCH AS CONTENT SPACE */
+/* HORIZONTAL CENTERING */
+
+body {
+    text-align: center; /* CENTERS ENTIRE INLINE ELEMENTS, ONLY CENTERS TEXT OF BLOCK ELEMENTS, SINCE THEY'RE STILL BLOCK ELEMENTS AND WILL TAKE UP THE ENTIRE AVAILABLE WIDTH*/
+}
 
 .block {
     background: blue;
     color: white;
     /* display: block;  DOESN'T CHANGE ANYTHING, BY DEFAULT BLOCK */
-    display: inline;
+    /* display: inline; */
+    width: 150px;
+    /* margin: 20px auto; */  /* CENTERS ENTIRE BLOCK ELEMENTS */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inline {
     background: red;
     color: white;
     /* display: inline; DOESN'T CHANGE ANYTHING, BY DEFAULT INLINE */
-    display: block;
+    /* display: block; */
 }
