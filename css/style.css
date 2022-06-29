@@ -1,16 +1,20 @@
-/* RELATIVE UNITS */
-/* vh - HEIGHT- PERCENT OF THE SCREEN */
-/* vw - WIDTH - PERCENT OF THE SCREEN */
-/* RELATIVE TO THE SCREEN */
+/* calc() 
+CALC FUNCTION
+PERFORM BASIC MATH OPERATIONS
+MIX AND MATCH VALUES */
 
-.banner {
-    width: 50vw;
-    height: 50vh;
-    background: red;
+* {
+    margin: 0;
 }
 
-.header {
-    width: 100vw;
-    height: 100vh;
+.navbar {
     background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner {
+    background: red;
+    min-height: 100vh;
 }
