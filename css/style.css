@@ -1,30 +1,21 @@
 /* CSS BOX MODEL */
-/* BORDER */
+/* BORDER-RADIUS - WORK ON THE EDGES OF THE BORDER
+NEGATIVE MARGIN */
 
 
 h1 {
     background: red;
     padding: 20px;
-    /* padding-top: 30px;
-    padding-bottom: 60px;
-    padding-left: 25px;
-    padding-right: 50px; */
-    /* margin-bottom: 0px; */
-    margin: 30px;
-    /* border-style: solid;
-    border-width: 10px;
-    border-color: steelblue; */
     border: 10px solid rgb(19, 20, 20);
+    border-radius: 20px;
 
 }
 
 p {
     background: blue;
     padding: 20px;
-    /* padding: 30px 60px; */ /* TOP-BOTTOM AND LEFT-RIGHT*/
-    /* padding: 20px 40px 60px 10px; */
-    /* margin-top: 0px; */
-    margin: 50px 20px;
-    border-top: 40px dotted black;
-    border-bottom: 30px dashed red;
+    border: 13px solid green;
+    border-radius: 50%;
+    margin-top: -100px;
+
 }
