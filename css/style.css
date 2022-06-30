@@ -1,5 +1,6 @@
 /* BACKGROUND IMAGE AND PROPERTIES */
 /* BACKGROUND-SIZE */
+/* BACKGROUND-POSITION */
 
 div {
     height: 400px;
@@ -10,8 +11,9 @@ div {
 
 .img-1 {
     background: url("../img/physics.webp");
-    background-repeat: round;
+    /* background-repeat: round; */
     background-size: cover;
+    background-position: center;
 }
 
 .img-2 {
@@ -19,10 +21,11 @@ div {
     background: url("../img/po.jpg");
     background-repeat: repeat;
     background-repeat: no-repeat;/* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
-    background-repeat: repeat-x;
+    /* background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-repeat: space;
-    background-repeat: round;
+    background-repeat: round; */
+    background-position: center;
 
 }
 
