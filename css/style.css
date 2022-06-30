@@ -1,25 +1,30 @@
-/* LINEAR GRADIENTS */
+/* LINEAR GRADIENTS AND BACKGROUND IMAGE*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 div {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
 }
 
-.one {
-    background: linear-gradient(red, green);
+.banner {
+    background: url("../img/physics.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.two {
-    background: linear-gradient(to top, red, green);
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/physics.webp");
 }
 
-.three {
-    background: linear-gradient(315deg, red, green);
-}
-
-.four {
-    background: linear-gradient(to top left, blue, pink);
-}
