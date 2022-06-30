@@ -1,22 +1,30 @@
-/* BOX-SIZING: BORDER-BOX */
+/* DISPLAY: NONE
+OPACITY: 0 T0 1
+VISIBILITY: HIDDEN*/
 
-.box-one, .box-two, .box-three {
-    width: 200px;
-    height: 200px;
+div {
+    background: blue;
+    margin: 10px;
     color: white;
 }
 
-.box-one {
-    background: red;
-    padding: 20px;  /* WILL ADD TO DIMENSIONS OF BOX */
-    box-sizing: border-box; /* PADDING APPLIED TO INSIDE THE BOX, TAKES AWAY FROM CONTENT, DOESN'T MESS WITH LAYOUT/DIMENSIONS */
+.none {
+    display: none;
+    /* TAKES THE ELEMENT OUT OF HTML DOC FLOW, NOT JUST HIDING IT */
 }
 
-.box-two {
-    background: steelblue;
+.opacity-1 {
+    opacity: 1;
 }
 
-.box-three {
-    background: green;
-    padding: 20px;
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.visibility {
+    visibility: hidden;
 }
