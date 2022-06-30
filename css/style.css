@@ -1,10 +1,21 @@
 /* BACKGROUND IMAGE AND PROPERTIES */
 /* BACKGROUND-SIZE */
 /* BACKGROUND-POSITION */
+/* BACKGROUND ATTACHMENT */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div {
-    height: 400px;
-    color: red;
+    min-height: 100vh;
+    color: green;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     /* height: 200px; */
     /* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
 }
@@ -13,7 +24,9 @@ div {
     background: url("../img/physics.webp");
     /* background-repeat: round; */
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .img-2 {
@@ -26,12 +39,15 @@ div {
     background-repeat: space;
     background-repeat: round; */
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  /* BACKGROUND IMAGE STAYS FIXED WHILE TEXT SCROLLS*/
 
 }
 
 .img-3 {
     background: url("../img/tree.jpg");
     background-repeat: round; /* ONLY USES COMPLETE IMAGES I.E CUT OFF IMAGES NOT USED*/
-    background-size: contain; /* MAINTAINS RATIO OF IMAGE */
+    background-size: cover; /* MAINTAINS RATIO OF IMAGE */
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
