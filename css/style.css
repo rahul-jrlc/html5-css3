@@ -1,53 +1,25 @@
-/* BACKGROUND IMAGE AND PROPERTIES */
-/* BACKGROUND-SIZE */
-/* BACKGROUND-POSITION */
-/* BACKGROUND ATTACHMENT */
+/* LINEAR GRADIENTS */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 div {
-    min-height: 100vh;
-    color: green;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* height: 200px; */
-    /* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
-}
-
-.img-1 {
-    background: url("../img/physics.webp");
-    /* background-repeat: round; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.img-2 {
-    border: 2px solid red;
-    background: url("../img/po.jpg");
-    background-repeat: repeat;
-    background-repeat: no-repeat;/* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
-    /* background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-repeat: space;
-    background-repeat: round; */
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;  /* BACKGROUND IMAGE STAYS FIXED WHILE TEXT SCROLLS*/
+    width: 150px;
+    height: 150px;
+    margin: 10px;
 
 }
 
-.img-3 {
-    background: url("../img/tree.jpg");
-    background-repeat: round; /* ONLY USES COMPLETE IMAGES I.E CUT OFF IMAGES NOT USED*/
-    background-size: cover; /* MAINTAINS RATIO OF IMAGE */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.one {
+    background: linear-gradient(red, green);
+}
+
+.two {
+    background: linear-gradient(to top, red, green);
+}
+
+.three {
+    background: linear-gradient(315deg, red, green);
+}
+
+.four {
+    background: linear-gradient(to top left, blue, pink);
 }
