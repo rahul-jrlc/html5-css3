@@ -1,38 +1,28 @@
-/* FLOAT PROPERTY */
-/* THREE COLUMN LAYOUT EXAMPLE */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* POSITION STATIC */
+/* POSITION RELATIVE- TOP, BOTTOM, LEFT, RIGHT */
 
 div {
-    float: left;
-    height: 200px;
-    width: 33.33%;
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: static;  /* DEFAULT */
 }
+
 .one {
-    /* float: left; */
-    background: red;
-    /* height: 200px; */
-    /* width: 33.33%; */
+    background: blue;
+    position: relative;
+    /* top: 50px; ORIGINAL POSITION RELATIVE TO CURRENT POSITION IS 50PX ABOVE */
+    /* left: 20rem; */
+    right: 50%;  /* ORIGINAL POSITION IS 50% TO THE RIGHT*/
+    bottom: 30px;
 }
 
 .two {
-    /* float: left; */
-    background: blue;
-    /* height: 200px; */
-    /* width: 33.33%; */
-}
-
-.three {
-    /* float: left; */
     background: green;
-    /* height: 200px; */
-    /* width: 33.33%; */
 }
 
-h1 {
-    clear: both;
+.special {
+    background: lightcoral;
+    font-size: 20px;
+
 }
