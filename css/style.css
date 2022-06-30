@@ -1,9 +1,22 @@
-/* INLINE-BLOCK */
+/* BOX-SIZING: BORDER-BOX */
 
-a {
-    font-size: 60px;
+.box-one, .box-two, .box-three {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.box-one {
     background: red;
-    padding: 30px 10px 100px 10px; /* CORRECTION- TOP AND BOTTOM PADDING RESPECTED IN INLINE ELEMENTS, NOT MARGINS*/
-    margin: 10px; /* NOT RESPECTED FOR TOP AND BOTTOM, SINCE ANCHOR TAGS ARE INLINE */
-    display: inline-block; /* TOP AND BOTTOM MARGINS WILL NOW BE RESPECTED */
+    padding: 20px;  /* WILL ADD TO DIMENSIONS OF BOX */
+    box-sizing: border-box; /* PADDING APPLIED TO INSIDE THE BOX, TAKES AWAY FROM CONTENT, DOESN'T MESS WITH LAYOUT/DIMENSIONS */
+}
+
+.box-two {
+    background: steelblue;
+}
+
+.box-three {
+    background: green;
+    padding: 20px;
 }
