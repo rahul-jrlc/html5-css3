@@ -1,17 +1,38 @@
-/* FLOAT DISPLAY */
+/* FLOAT PROPERTY */
+/* THREE COLUMN LAYOUT EXAMPLE */
 
-.banner {
-    border: 5px solid red;
-    padding: 10px;
-    overflow: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.one {
-    float: right;
-    margin-left: 50px;
-}
-
-/* .two {
+div {
     float: left;
-} */
+    height: 200px;
+    width: 33.33%;
+}
+.one {
+    /* float: left; */
+    background: red;
+    /* height: 200px; */
+    /* width: 33.33%; */
+}
 
+.two {
+    /* float: left; */
+    background: blue;
+    /* height: 200px; */
+    /* width: 33.33%; */
+}
+
+.three {
+    /* float: left; */
+    background: green;
+    /* height: 200px; */
+    /* width: 33.33%; */
+}
+
+h1 {
+    clear: both;
+}
