@@ -1,33 +1,9 @@
-/* BLOCK: TOP AND BOTTOM MARGIN RESPECTED */
-/* INLINE: TOP AND BOTTOM MARGIN NOT RESPECTED */
-/* MOBILE NAVBAR EXAMPLE */
-/* LIST-STYLE-TYPE: PROPERTY */
-/* DESCENDANT SELECTORS */
+/* INLINE-BLOCK */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-ul li {
-    list-style-type: none;
-}
-
-ul li a {
-    text-decoration: none;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    background: black;
-    color: red;
-    /* padding: 5px;
-    margin: 10px 10px; ANCHOR TAGS ARE INLINE ELEMENTS, SO TOP AND BOTTOM MARGINS WILL NOT BE RESPECTED BY BROWSER AND PADDINGS TOO */
-    display: block;
-    margin: 10px 10px;
-    padding: 10px 20px;
-    
+a {
+    font-size: 60px;
+    background: red;
+    padding: 30px 10px 100px 10px; /* CORRECTION- TOP AND BOTTOM PADDING RESPECTED IN INLINE ELEMENTS, NOT MARGINS*/
+    margin: 10px; /* NOT RESPECTED FOR TOP AND BOTTOM, SINCE ANCHOR TAGS ARE INLINE */
+    display: inline-block; /* TOP AND BOTTOM MARGINS WILL NOW BE RESPECTED */
 }
