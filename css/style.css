@@ -1,30 +1,34 @@
-/* DISPLAY: NONE
-OPACITY: 0 T0 1
-VISIBILITY: HIDDEN*/
+/* BACKGROUND IMAGE AND PROPERTIES */
+/* BACKGROUND-SIZE */
 
 div {
-    background: blue;
-    margin: 10px;
-    color: white;
+    height: 400px;
+    color: red;
+    /* height: 200px; */
+    /* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
 }
 
-.none {
-    display: none;
-    /* TAKES THE ELEMENT OUT OF HTML DOC FLOW, NOT JUST HIDING IT */
+.img-1 {
+    background: url("../img/physics.webp");
+    background-repeat: round;
+    background-size: cover;
 }
 
-.opacity-1 {
-    opacity: 1;
+.img-2 {
+    border: 2px solid red;
+    background: url("../img/po.jpg");
+    background-repeat: repeat;
+    background-repeat: no-repeat;/* LAST RULE-- ORDER WITHIN SELECTOR ALSO MATTERS */
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round;
+
 }
 
-.opacity-0 {
-    opacity: 0;
-}
-
-.opacity-5 {
-    opacity: 0.5;
-}
-
-.visibility {
-    visibility: hidden;
+.img-3 {
+    background: url("../img/tree.jpg");
+    background-repeat: round; /* ONLY USES COMPLETE IMAGES I.E CUT OFF IMAGES NOT USED*/
+    background-size: contain; /* MAINTAINS RATIO OF IMAGE */
+    background-repeat: no-repeat;
 }
