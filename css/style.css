@@ -1,4 +1,6 @@
-/* TRANSFORM: TRANSLATE(), SCALE(), ROTATE(), SKEW() */
+/* TRANSITION: CHANGE OVER TIME */
+/* TRANSITION-PROPERTY */
+/* TRANSITION-DURATION */
 
 div {
     width: 150px;
@@ -6,19 +8,27 @@ div {
     display: inline-block;
 }
 
+div:hover {
+    background: pink;
+}
 .one {
     background: red;
-    transform: scaleX(0.5);  /* SCALE SIZE I.E GET BIGGER/SMALLER ALONG X-AXIS */
+    
 }
 
 .two {
     background: green;
-    transform: scaleY(2); /* SCALE SIZE I.E GET BIGGER/SMALLER ALONG Y-AXIS */
+    
     
 }
 
 .three {
     background: blue;
-    transform: scale(0.5, 2);
+    transition-property: background, border-radius;
+    transition-duration: 4s, 2s;
     
+}
+
+.three:hover {
+    border-radius: 50%;
 }
