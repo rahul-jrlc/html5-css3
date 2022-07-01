@@ -1,6 +1,8 @@
 /* TRANSITION: CHANGE OVER TIME */
 /* TRANSITION-PROPERTY */
 /* TRANSITION-DURATION */
+/* TRANSITION-DELAY */
+/* SHORTHAND */
 
 div {
     width: 150px;
@@ -26,6 +28,8 @@ div:hover {
     background: blue;
     transition-property: background, border-radius;
     transition-duration: 4s, 2s;
+    transition-delay: 3s;
+    transition: all 4s 5s;
     
 }
 
