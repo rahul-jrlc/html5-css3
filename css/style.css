@@ -1,29 +1,50 @@
-/* POSITION STATIC */
-/* POSITION RELATIVE- TOP, BOTTOM, LEFT, RIGHT */
-/* POSITION ABSOLUTE */
+/* MEDIA QUERIES */
+/* RESPONSIVE DESIGN */
+/* STYLE ELEMENTS ON DIFFERENT SCREEN SIZES */
+/* MIN-WIDTH: STARTING FROM */
+/* MAX-WIDTH: UP TO */
+/* MOBILE FIRST */
 
-div {
-    border: 3px solid red;
+body {
     background: yellow;
-    margin-top: 40px;
-    position: relative;  /* DEFAULT */
 }
 
-.one {
+.banner {
     background: blue;
-    
 }
 
-.two {
-    background: green;
-    position: relative;
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
 }
 
-.special {
-    background: lightcoral;
-    font-size: 20px;
-    position: absolute;
-    top: 0;
-    right: 0;
+@media screen and (min-width:576px) {  /* APPLICABLE FROM SCREEN WIDTH 576PX*/
+    body {
+        background: red;
+    }
+    .banner {
+        background: yellow;
+    }
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+}
 
+@media screen and (min-width: 768px) { /*APPLICABLE FROM SCREEN WIDTH 768PX*/
+    body {
+        background: green;
+    }
+    .banner {
+        background: blue;
+    }
+    h1 {
+        color: red;
+        font-size: 80px;
+        text-align: right;
+        text-decoration: line-through;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
