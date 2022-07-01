@@ -1,50 +1,37 @@
-/* MEDIA QUERIES */
-/* RESPONSIVE DESIGN */
-/* STYLE ELEMENTS ON DIFFERENT SCREEN SIZES */
-/* MIN-WIDTH: STARTING FROM */
-/* MAX-WIDTH: UP TO */
-/* MOBILE FIRST */
+/* Z-INDEX-- Z-AXIS --- SHIFTING/DISPLAYING IMAGES CLOSER OR FARTHER TO USER */
+/* POSITION:STATIC DOES NOT WORK */
+/* Z-INDEX BY DEFAULT IS ZERO */
 
-body {
-    background: yellow;
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
 }
 
 .banner {
-    background: blue;
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
+.one {
+    top: 0;
+    left: 0;
+    /* z-index: 0; REMAINS AT INDEX 0 ON Z-AXIS---- DEFAULT */
+    position: static;
+    z-index: 100;   /* WILL NOT WORK WITH POSITION:STATIC */
 }
 
-@media screen and (max-width:576px) {  /* APPLICABLE FROM SCREEN WIDTH 576PX*/
-    body {
-        background: red;
-    }
-    .banner {
-        background: yellow;
-    }
-    h1 {
-        color: black;
-        font-size: 60px;
-    }
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 1; /* SHIFTS TO -1 ON Z-AXIS*/
 }
 
-@media screen and (min-width: 768px) { /*APPLICABLE FROM SCREEN WIDTH 768PX*/
-    body {
-        background: green;
-    }
-    .banner {
-        background: blue;
-    }
-    h1 {
-        color: red;
-        font-size: 80px;
-        text-align: right;
-        text-decoration: line-through;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 2;  /* SHIFTS TO -2 ON Z-AXIS*/
 }
