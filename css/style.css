@@ -1,17 +1,9 @@
-/* DESCENDANT AND CHILD COMBINATORS */
+/* ::first-line ::first-letter */
 
-div h1 {   /* ALL H1 DIRECT OR INDIRECT CHILDREN---DESCENDANTS*/
-    color: red;
+p::first-line {
+    font-weight: bold;
 }
 
-div > h1 { /* ALL H1 DIRECT CHILDREN OF DIV */
-    color: blue;
-}
-
-.header h1 {  /* CLASS HAS HIGHER SPECIFICITY*/
-    color: green;
-}
-
-.header > h1 {
-    color: purple;
+p::first-letter {
+    font-size: 3rem;
 }
