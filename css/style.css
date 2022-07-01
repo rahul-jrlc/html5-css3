@@ -1,15 +1,24 @@
-/* ::HOVER */
+/* TRANSFORM: TRANSLATE(), SCALE(), ROTATE(), SKEW() */
 
-p:hover {
-    font-size: 30px;
-    color: red;
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
-.header:hover {
-    background: steelblue;
-    color: red;
+.one {
+    background: red;
+    transform: translateX(50%);  /*MOVE LEFT OR RIGHT ALONG THE X-AXIS*/
+    /* 50% HERE IS 50% OF DIV WIDTH 150PX, NOT PARENT ELEMENT BODY */
 }
 
-a:hover {
-    text-decoration: line-through;
+.two {
+    background: green;
+    transform: translateY(30px);  /* MOVE UP/DOWN ALONG Y-AXIS */
+}
+
+.three {
+    background: blue;
+    /* transform: translateX(75px); */
+    transform: translate(20px, 30px);  /* FIRST VALUE X-AXIS, SECOND Y-AXIS*/
 }
