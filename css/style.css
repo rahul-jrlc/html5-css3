@@ -1,9 +1,15 @@
-/* ::first-line ::first-letter */
+/* ::HOVER */
 
-p::first-line {
-    font-weight: bold;
+p:hover {
+    font-size: 30px;
+    color: red;
 }
 
-p::first-letter {
-    font-size: 3rem;
+.header:hover {
+    background: steelblue;
+    color: red;
+}
+
+a:hover {
+    text-decoration: line-through;
 }
